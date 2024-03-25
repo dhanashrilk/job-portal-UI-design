@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+.top-navbar nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  width: 100%;
+}
+.talentConn {
+  font-size: 36px !important;
+  color: #bc96c9 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+  align-items: center;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  padding: 0 10px 0 10px;
+}
+.post_btn1 {
+  background-color: #6f709e;
+  border-radius: 10px;
+  padding: 7px 17px 0 17px;
+}
+.post_btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+}
+.title-bg {
+  background-color: #e2daee;
+  padding: 20px 0;
+}
+.job-title {
+  font-size: 32px;
+  color: #6f709e;
+  font-weight: 700;
+}
+.bg-color {
+  background-color: #e2daee;
+}
+.pdg-top {
+  padding-top: 90px;
+}
+.about-text {
+  font-size: 40px;
+  font-weight: 600;
+}
+.about-card {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  h5 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 40px 30px 30px 30px !important;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 32px;
+  }
+}
+.col-lg-12 .row > * {
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+.card {
+  width: 18rem;
+  background-color: #c8c8c8;
+}
+.card-img-top {
+  border-radius: 0 0 15px 15px;
+  height: 165px;
+}
+.card-body p {
+  font-size: 14px;
+  padding: 20px 10px 10px 10px;
+  font-weight: 400;
+  text-align: center;
+}
+.footer {
+  padding: 10px 0;
+  color: #fff;
+  background-color: #6f709e;
+  font-family: 400;
+  font-family: "Poppins";
+}
+@media (max-width: 575px) {
+  .card-body p {
+    font-size: 10px;
+    padding: 2px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .card {
+    width: auto;
+  }
+  /* .prof-img {
+    display: none;
+  } */
+}
+@media (max-width: 575px) {
+  .footer {
+    font-size: 12px;
+  }
+  .about-text {
+    padding-top: 60px !important;
+  }
+}

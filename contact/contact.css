@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Armata&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+.top-navbar nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  width: 100%;
+}
+.talentConn {
+  font-size: 36px !important;
+  color: #bc96c9 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: "Armata", sans-serif;
+  font-weight: 400;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+  align-items: center;
+}
+.nav-item {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  padding: 0 10px 0 10px;
+}
+.post_btn1 {
+  background-color: #6f709e;
+  border-radius: 10px;
+  padding: 7px 17px 0 17px;
+}
+.post_btn {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+}
+.title-bg {
+  background-color: #e2daee;
+  padding: 20px 0;
+}
+.job-title {
+  font-size: 32px;
+  color: #6f709e;
+  font-weight: 700;
+}
+.bg-color {
+  background-color: #e2daee;
+  .row {
+    padding-top: 100px;
+  }
+}
+.get-incard {
+  background-color: #fff;
+  border-radius: 20px 0 0 20px;
+  padding: 50px 0 60px 50px !important;
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000;
+    span {
+      color: #6f709e;
+    }
+  }
+}
+.form-page {
+  width: 70%;
+}
+.dropdown-toggle::after {
+  float: right;
+}
+.btn-group {
+  display: flow !important;
+  .form-control {
+    text-align: justify;
+  }
+}
+.send-btn {
+  width: 100%;
+  background-color: #6f709e;
+  color: #fff;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: none;
+}
+.map-card {
+  background-color: #6f709e;
+  border-radius: 0 20px 20px 0;
+  padding: 50px 0 60px 50px !important;
+  position: relative;
+  iframe {
+    position: absolute;
+    left: -160px;
+    top: 30px;
+    padding: 30px;
+  }
+}
+.contact-details {
+  padding: 18px;
+  span {
+    font-size: 16px;
+    padding: 15px 9px 0 0 !important;
+  }
+  .phone-text {
+    margin: 0px !important;
+    font-size: 13px;
+    color: #000;
+  }
+  .phone-number {
+    margin: 0px !important;
+    font-size: 10px;
+    color: #aa80f9;
+  }
+}
+.footer {
+  padding: 10px 0;
+  color: #fff;
+  background-color: #6f709e;
+  font-family: 400;
+  font-family: "Poppins";
+}
+@media (max-width: 575px) {
+  .get-incard {
+    padding: 0px !important;
+  }
+  .form-page {
+    width: 100%;
+    padding: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .footer {
+    font-size: 12px;
+  }
+  .map-card {
+    display: none !important;
+  }
+  .get-incard {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+}
